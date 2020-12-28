@@ -12,32 +12,33 @@
         <label><b>User Name     
         </b>    
         </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Username"> 
+        <input type="text" name="Uname" id="username" placeholder="Username" required> 
         <br><br>  
         <label><b>Email
         </b>
         </label>
         <br>
-        <input type="text" name="Email" id="Email" Placeholder="Email">
+        <input type="text" name="Email" id="email" Placeholder="Email" required>
         <br><br>  
         <label><b>Password     
         </b>    
         </label>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <input type="Password" name="Pass" id="password" placeholder="Password" required>    
         <br><br>    
    
         <label><b>Confirm Password     
         </b>    
         </label>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Confirm Password">    
+        <input type="Password" name="Pass" id="confirmPassword" placeholder="Confirm Password" required>    
         <br><br>    
         <input type="checkbox" id="check">    
         <span>Accepect all Terms and Conditions</span>   
         <br><br>    
-        <input type="button" name="Sign" id="log" value="Sign in">       
+        <input type="button" name="Sign" id="log" value="Sign in" onclick="validateRegisterDetails()">>       
          
       
     </form>     
 </div>    
+<script src="RegisterValidation.js"></script>    
 </body>    
 </html>   
